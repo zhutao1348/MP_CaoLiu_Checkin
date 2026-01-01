@@ -14,7 +14,6 @@ fields:
     type: password
     required: true
     label: 论坛 Cookie
-    helper: "填入从浏览器获取的完整 Cookie"
   - name: proxy
     type: text
     label: 代理地址
