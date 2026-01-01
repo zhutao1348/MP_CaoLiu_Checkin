@@ -1,6 +1,5 @@
 id: caoliu_checkin
 name: 草榴自动签到
 desc: 支持多Fid、多帖子的草榴自动回复/签到插件。
-author: custom
+author: zhutao1348
 version: 1.0.0
-icon: https://raw.githubusercontent.com/google/material-design-icons/master/src/action/check_circle/materialicons/24px.svg
