@@ -1,0 +1,25 @@
+name: 草榴自动签到
+id: caoliu_checkin
+desc: 自动回复指定帖子，支持多个 Fid 任务
+icon: check_circle_outline
+version: "1.0.0"
+fields:
+  - name: tasks
+    type: text
+    required: true
+    label: 签到任务列表
+    placeholder: "链接1,7; 链接2,16"
+    helper: "格式：URL和Fid用英文逗号分隔，多个任务用分号分隔。例如: https://t66y.com/xxx.html,7; https://t66y.com/yyy.html,16"
+  - name: cookie
+    type: password
+    required: true
+    label: 论坛 Cookie
+    helper: "填入从浏览器获取的完整 Cookie"
+  - name: proxy
+    type: text
+    label: 代理地址
+    placeholder: "http://127.0.0.1:7890"
+  - name: interval
+    type: number
+    label: 任务间隔(秒)
+    default: 65
